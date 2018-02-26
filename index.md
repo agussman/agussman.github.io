@@ -1,3 +1,5 @@
-# About Me
+# About Me :ghost:
 
-# Projects
+# Projects :pencil2:
+
+# Learning :mag:
