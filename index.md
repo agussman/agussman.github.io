@@ -5,6 +5,13 @@
 
 # Projects
 
+## AWS Neptune
+
+[This project](https://github.com/agussman/coredex) includes a getting started guide to AWS Neptune; how to launch it, insert data manually and programmatincally, and visualize it with GraphExp.
+
+Additionally, there are [slides](https://docs.google.com/presentation/d/1p1C1NOKNhbwJ3cCUqECOSXqnz-3-wlLpIjt4Ftbcc80/edit?usp=sharing) that provide an introduction and an overview of Graph Databases.
+
+
 ## fit-converter.com
 
 I went for a run and somehow the Garmin .fit file got corrupted. Which really annoyed me because I was pretty sure I had set a PR for the year on the run. Anyway, one thing led to another and I made a site to convert corrupt @Garmin .FIT files into .GPX files that can still be imported into Garmin Connect: [fit-converter.com](http://fit-converter.com).
