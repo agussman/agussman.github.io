@@ -18,6 +18,10 @@ I went for a run and somehow the Garmin .fit file got corrupted. Which really an
 
 The site is written in Python 3 and Angular 5. The backend deploys to AWS Lambda using AWS Chalice. You can check out the code [here](https://github.com/agussman/garmin-fit-fix).
 
-# Learning 
+## Satellites Above [Alexa Skill]
+
+[This Alexa skill](https://github.com/agussman/satellites_above) accesses the user-provided device location, geolocates it, and queries the N2YO api to count the number of satellites overhead at that exactly moment.
+
+# Learning
 
  * 
