@@ -9,7 +9,7 @@
 
 [This project](https://github.com/agussman/coredex) includes a getting started guide to AWS Neptune; how to launch it, insert data manually and programmatincally, and visualize it with GraphExp.
 
-Additionally, there are [slides](https://docs.google.com/presentation/d/1p1C1NOKNhbwJ3cCUqECOSXqnz-3-wlLpIjt4Ftbcc80/edit?usp=sharing) that provide an introduction and an overview of Graph Databases.
+Additionally, there are [slides](https://docs.google.com/presentation/d/1p1C1NOKNhbwJ3cCUqECOSXqnz-3-wlLpIjt4Ftbcc80/edit?usp=sharing) and [only marginally-awkward video](https://youtu.be/-7ukAnT51CI?t=1900) that provide an introduction and an overview of Graph Databases and go through the project.
 
 
 ## fit-converter.com
