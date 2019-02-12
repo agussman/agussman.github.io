@@ -77,6 +77,8 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * RFID and NFC Attacks
     * NFC - Near Field Communications, is two way
     * 
-
+  * Wireless Disassociation Attacks
+    * Management frames aren't encrypted or authenticated
+    * 
     
     
