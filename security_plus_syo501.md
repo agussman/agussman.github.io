@@ -80,5 +80,31 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Wireless Disassociation Attacks
     * Management frames aren't encrypted or authenticated
     * 
-    
+  * Cryptographic Attacks
+* 1.3 Threat Actors
+* 1.4 Penetration Testing
+  * Penetration Testing
+    * Starts w/ information gathering / Passive Reconnisaince
+    * Active Recon
+    * Exploit vulnerabilities
+    * initial exploit -> leave a backdoor
+    * black box - pentesters don't know anything
+    * gray box -
+    * white box - they get full info
+* 1.5 Vulnerability Scanning
+  * Vulnerability Scanning
+    * https://www.professormesser.com/security-plus/sy0-501/vulnerability-scanning-5/
+    * minimally invasive
+    *
+ * Vulnerability Types
+   * Vulnerability Types
+     * Race condition
+     * End of Life avoid by upgrading
+     * Improper Error Handling / verbose error messages with too much info
+     * untrained user (physical vulnerability)
+     * improperly configured accounts (too many, too much access)
+     * cypher suite - protocol (AES, 3DS), length, hash (sha, md5)
+     * TLS is a common suite
+     * memory leak - memory not deallocated
+     * 
     
