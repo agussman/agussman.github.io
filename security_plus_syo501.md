@@ -111,6 +111,19 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * 2.1 Security Components
   * Firewalls
   * VPN Concentrators [(7:59)](https://www.professormesser.com/security-plus/sy0-501/vpn-concentrators-5/)
+    * SSL/TLS is common, runs from a browser, usually allowed, doesn't require special authentication
+    * Full Tunnel - all traffic will traverse it (corp network and 3rd party redirected through it)
+    * Split Tunnel - only corporate traffic goes through it
+    * Site to Site usually use firewalls
+    * IPSec - OSI Layer 3
+    * Has an integrity check to prevent replay
+    * standard across manufacturers
+    * AH - Authentication Header
+    * ESP - Encapsulation Security Payload
+    * Transport Mode - data encrypted, use original IP header
+      [Original IP Header][IPsec Headers][Data][IPsec Trailers]
+    * Tunnel Mode - IP Header and Data are encrypted, uses a different IP header (it's encrypted)
+      [New IP Header][IPsec Headers][IP Header][Data][IPsec Trailers]
     * 
   * Network Intrusion Detection and Prevention (7:51)
   * Router and Switch Security (12:31)
