@@ -4,6 +4,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 
 * OSI Model
 * Ports
+## Section 1 – Threats, Attacks, and Vulnerabilities
 * 1.2 Attack Types
   * DNS Poisoning and Domain Hijacking
     * https://www.professormesser.com/security-plus/sy0-501/dns-poisoning-and-domain-hijacking/
@@ -106,6 +107,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
      * cypher suite - protocol (AES, 3DS), length, hash (sha, md5)
      * TLS is a common suite
      * memory leak - memory not deallocated
+## Section 2 – Technologies and Tools
 * 2.1 Security Components
   * Firewalls
   * VPN Concentrators (7:59)
