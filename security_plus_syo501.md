@@ -106,5 +106,65 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
      * cypher suite - protocol (AES, 3DS), length, hash (sha, md5)
      * TLS is a common suite
      * memory leak - memory not deallocated
-     * 
-    
+* 2.1 Security Components
+  * Firewalls
+  * VPN Concentrators (7:59)
+  * Network Intrusion Detection and Prevention (7:51)
+  * Router and Switch Security (12:31)
+  * Proxies (4:13)
+  * Load Balancers (5:43)
+  * Access Points (10:25)
+  * SIEM (7:11)
+  * Data Loss Prevention (4:59)
+  * Network Access Control (3:56)
+  * Mail Gateways (4:00)
+  * Other Security Devices (6:51)
+* 2.2 Security Software
+  * Software Security Tools (15:00)
+  * Command Line Security Tools (19:39)
+* 2.3 – Common Security Issues
+  * Common Security Issues (18:16)
+* 2.4 – Analyzing Security Output
+  * Analyzing Security Output (11:42)
+* 2.5 – Securing Mobile Devices
+  * Mobile Device Connection Methods (6:47)
+  * Mobile Device Management (13:17)
+  * Mobile Device Enforcement (11:37)
+  * Mobile Device Deployment Models (4:04)
+* 2.6 – Secure Protocols
+  * Secure Protocols (10:27)
+* 3.1 – Security Frameworks
+  * Compliance and Frameworks (5:20)
+  * Secure Configuration Guides (5:46)
+  * Defense-in-Depth (3:24)
+* 3.2 – Securing the Network
+  * Secure Network Topologies (6:59)
+  * Network Segmentation (5:19)
+  * VPN Technologies (3:00)
+  * Security Technology Placement (11:28)
+  * Securing SDN (2:39)
+* 3.3 – Secure Systems Design
+  * Hardware Security (6:59)
+  * Operating System Security (12:16)
+  * Peripheral Security (6:31)
+* 3.4 – Secure Deployments
+  * Secure Deployments (3:43)
+* 3.5 – Embedded Systems
+  * Embedded Systems (8:39)
+* 3.6 – Secure Application Development
+  * Development Life Cycle Models (3:33)
+  * Secure DevOps (6:18)
+  * Version Control and Change Management (3:22)
+  * Provisioning and Deprovisioning (2:56)
+  * Secure Coding Techniques (12:35)
+  * Code Quality and Testing (7:35)
+* 3.7 – Cloud Technologies
+  * Virtualization Overview (3:37)
+  * Virtualization Security (3:25)
+  * Cloud Deployment Models (3:43)
+  * Security in the Cloud (5:58)
+* 3.8 – Resiliency and Automation
+  * Resiliency and Automation (6:25)
+  * Redundancy, Fault Tolerance, and High Availability (5:44)
+* 3.9 – Physical Security Controls
+  * Physical Security Controls (22:09)
