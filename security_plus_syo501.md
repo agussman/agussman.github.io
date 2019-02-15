@@ -110,7 +110,8 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 ## Section 2 – Technologies and Tools
 * 2.1 Security Components
   * Firewalls
-  * VPN Concentrators (7:59)
+  * VPN Concentrators [(7:59)](https://www.professormesser.com/security-plus/sy0-501/vpn-concentrators-5/)
+    * 
   * Network Intrusion Detection and Prevention (7:51)
   * Router and Switch Security (12:31)
   * Proxies (4:13)
