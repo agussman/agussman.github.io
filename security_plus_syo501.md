@@ -168,3 +168,70 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Redundancy, Fault Tolerance, and High Availability (5:44)
 * 3.9 – Physical Security Controls
   * Physical Security Controls (22:09)
+4.1 – Identity and Access Management
+AAA and Authentication (9:30)
+4.2 – Identity and Access Services
+Identity and Access Services (7:39)
+PAP, CHAP, and MS-CHAP (4:09)
+Federated Identities (4:49)
+4.3 – Identity and Access Controls
+Access Control Models (6:06)
+Access Control Technologies (6:15)
+4.4 – Account Management
+Account Types (4:01)
+Account Management (7:45)
+Account Policy Enforcement (4:23)
+5.1 – Security Policies
+Agreement Types (4:10)
+Personnel Management (5:17)
+Role-based Awareness Training (2:43)
+General Security Policies (1:56)
+5.2 – Business Impact Analysis
+Business Impact Analysis (9:06)
+5.3 – Risk Management
+Risk Assessment (9:29)
+5.4 – Incident Response
+Incident Response Planning (6:08)
+Incident Response Process (7:14)
+5.5 – Forensics
+Gathering Forensics Data (8:22)
+Using Forensics Data (2:32)
+5.6 – Disaster Recovery
+Disaster Recovery Sites (1:51)
+Application Recovery (5:25)
+Geographic Considerations (3:18)
+Continuity of Operations (4:49)
+5.7 – Security Controls
+Security Controls (3:10)
+5.8 – Data Security and Privacy
+Data Destruction (5:02)
+Handling Sensitive Data (2:18)
+Data Roles and Retention (3:00)
+6.1 – Cryptography
+Cryptography Concepts (7:52)
+Symmetric and Asymmetric Encryption (6:07)
+Hashing and Digital Signatures (7:33)
+Randomizing Cryptography (3:35)
+Weak Encryption (3:19)
+Cryptographic Keys (3:47)
+Steganography (2:34)
+Stream and Block Ciphers (1:55)
+States of Data (3:07)
+Perfect Forward Secrecy (2:10)
+Common Cryptography Use Cases (4:21)
+6.2 – Cryptography Algorithms
+Symmetric Algorithms (4:45)
+Block Cipher Modes (5:44)
+Asymmetric Algorithms (5:04)
+Hashing Algorithms (3:36)
+Key Stretching Algorithms (1:32)
+Obfuscation (3:53)
+6.3 – Wireless Security
+Wireless Cryptographic Protocols (3:30)
+Wireless Authentication Protocols (5:21)
+Wireless Security (4:46)
+6.4 – Public Key Infrastructure
+PKI Components (8:29)
+PKI Concepts (6:18)
+Types of Certificates (6:21)
+Certificate File Formats (3:21)
