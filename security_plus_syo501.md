@@ -4,6 +4,8 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 
 * OSI Model
 * Ports
+## Things to Review More
+* VPN Concentrators
 ## Section 1 – Threats, Attacks, and Vulnerabilities
 * 1.2 Attack Types
   * DNS Poisoning and Domain Hijacking
@@ -124,14 +126,24 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
       [Original IP Header][IPsec Headers][Data][IPsec Trailers]
     * Tunnel Mode - IP Header and Data are encrypted, uses a different IP header (it's encrypted)
       [New IP Header][IPsec Headers][IP Header][Data][IPsec Trailers]
+    * TODO: Review this more
+  * Network Intrusion Detection and Prevention [(7:51)](https://www.professormesser.com/security-plus/sy0-501/network-intrusion-detection-and-prevention-3/)
+    * IDS - Intrusion Detection System (informs)
+    * IPS - Intrusion Protection System (blocks)
     * 
-  * Network Intrusion Detection and Prevention (7:51)
   * Router and Switch Security (12:31)
   * Proxies (4:13)
   * Load Balancers (5:43)
   * Access Points (10:25)
-  * SIEM (7:11)
-  * Data Loss Prevention (4:59)
+  * SIEM [(7:11)](https://www.professormesser.com/security-plus/sy0-501/siem-2/)
+    * Security Information and Event Management, logs basically
+    * Can correlate data from different vendors
+    * NTP / central time keeping is crucial
+    * syslog is a standard exchange
+    * maybe write to WORM (Write Once Read Many)
+    * 
+  * Data Loss Prevention [(4:59)](https://www.professormesser.com/security-plus/sy0-501/data-loss-prevention-3/)
+    * 
   * Network Access Control (3:56)
   * Mail Gateways (4:00)
   * Other Security Devices (6:51)
