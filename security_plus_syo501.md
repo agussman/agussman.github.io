@@ -149,8 +149,10 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * persistent agent - always running software
     * dissolvable agent - health check at initial authentication
     * agentless - e.g., windows AD thing
-  * Mail Gateways (4:00)
-  * Other Security Devices (6:51)
+  * Mail Gateways [(4:00)](https://www.professormesser.com/security-plus/sy0-501/mail-gateways/)
+    * Antivirus, DLP, spam prevention
+  * Other Security Devices [(6:51)](https://www.professormesser.com/security-plus/sy0-501/other-security-devices/)
+    * 
 * 2.2 Security Software
   * Software Security Tools (15:00)
   * Command Line Security Tools (19:39)
