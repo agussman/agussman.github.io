@@ -152,10 +152,24 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Mail Gateways [(4:00)](https://www.professormesser.com/security-plus/sy0-501/mail-gateways/)
     * Antivirus, DLP, spam prevention
   * Other Security Devices [(6:51)](https://www.professormesser.com/security-plus/sy0-501/other-security-devices/)
+    * SSL accelerator - 
+    * Media Gateway - telephony to IP phones, need to protect this
     * 
 * 2.2 Security Software
-  * Software Security Tools (15:00)
-  * Command Line Security Tools (19:39)
+  * Software Security Tools [(15:00)](https://www.professormesser.com/security-plus/sy0-501/software-security-tools/)
+    * Passive tools - watch network traffic go by
+    * active tool - sends data to a device
+    * protocol analyzer - network traffic patterns and abnormalities
+    * network scanner - what services running on a remote device, OS, 
+    * wireless scanners and monitors
+    * vulnerability scanners
+    * 
+  * Command Line Security Tools [(19:39)](https://www.professormesser.com/security-plus/sy0-501/command-line-security-tools/)
+    * dig replaces nslookup
+    * ARP cache maps device MAC to IP
+    * TCP dump, gets it in PCAP
+    * nmap - network mapper, port scan, os scan, service scan
+    * 
 * 2.3 – Common Security Issues
   * Common Security Issues (18:16)
 * 2.4 – Analyzing Security Output
