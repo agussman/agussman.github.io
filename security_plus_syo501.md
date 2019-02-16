@@ -171,7 +171,8 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * nmap - network mapper, port scan, os scan, service scan
     * 
 * 2.3 – Common Security Issues
-  * Common Security Issues (18:16)
+  * Common Security Issues [(18:16)](https://www.professormesser.com/security-plus/sy0-501/common-security-issues/)
+    * 
 * 2.4 – Analyzing Security Output
   * Analyzing Security Output (11:42)
 * 2.5 – Securing Mobile Devices
