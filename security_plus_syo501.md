@@ -141,11 +141,9 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * NTP / central time keeping is crucial
     * syslog is a standard exchange
     * maybe write to WORM (Write Once Read Many)
-    * endpoint dlp (cpu) / data in motion (network) / data at rest (dbs)
-    * 
   * Data Loss Prevention [(4:59)](https://www.professormesser.com/security-plus/sy0-501/data-loss-prevention-3/)
-    * Prevents data leakage
-    * Can 
+    * Prevents data leakage e.g. data moving around that shouldn't be (PII)
+    * endpoint dlp (cpu) / data in motion (network) / data at rest (dbs) 
   * Network Access Control (3:56)
   * Mail Gateways (4:00)
   * Other Security Devices (6:51)
