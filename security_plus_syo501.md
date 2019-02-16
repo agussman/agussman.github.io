@@ -130,7 +130,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Network Intrusion Detection and Prevention [(7:51)](https://www.professormesser.com/security-plus/sy0-501/network-intrusion-detection-and-prevention-3/)
     * IDS - Intrusion Detection System (informs)
     * IPS - Intrusion Protection System (blocks)
-    * 
+    * RELISTEN
   * Router and Switch Security (12:31)
   * Proxies (4:13)
   * Load Balancers (5:43)
@@ -144,7 +144,11 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Data Loss Prevention [(4:59)](https://www.professormesser.com/security-plus/sy0-501/data-loss-prevention-3/)
     * Prevents data leakage e.g. data moving around that shouldn't be (PII)
     * endpoint dlp (cpu) / data in motion (network) / data at rest (dbs) 
-  * Network Access Control (3:56)
+  * Network Access Control [(3:56)](https://www.professormesser.com/security-plus/sy0-501/network-access-control-4/)
+    * Some sort of agent runs on the devices to see if they are allowed to connect
+    * persistent agent - always running software
+    * dissolvable agent - health check at initial authentication
+    * agentless - e.g., windows AD thing
   * Mail Gateways (4:00)
   * Other Security Devices (6:51)
 * 2.2 Security Software
