@@ -274,6 +274,8 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * token based - server is stateless, client stores session token locally, client includes it with each request
     * login ->, token sent <-, Request+token ->, Response <-
     * federated often token based
+    * SAML - security assertion markup language
+   * 
 * 4.3 – Identity and Access Controls
 Access Control Models (6:06)
 Access Control Technologies (6:15)
