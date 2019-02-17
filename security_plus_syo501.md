@@ -123,7 +123,6 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 ## Section 2 – Technologies and Tools
 * 2.1 Security Components
   * Firewalls [(9:17)](https://www.professormesser.com/security-plus/sy0-501/firewalls-3/)
-    * 
     * filter at OSI Layer 4 ()
     * OSI Layer 7 - Application filtering option
     * Often used as VPN concentrators
@@ -133,7 +132,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * "application layer gateway" looking at the packet, 
     * host-based?
     * ACLs - (dis)allow traffics
-    * 
+    * Application-based vs. network-based
   * VPN Concentrators [(7:59)](https://www.professormesser.com/security-plus/sy0-501/vpn-concentrators-5/)
     * SSL/TLS is common, runs from a browser, usually allowed, doesn't require special authentication
     * Full Tunnel - all traffic will traverse it (corp network and 3rd party redirected through it)
@@ -239,13 +238,43 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Redundancy, Fault Tolerance, and High Availability (5:44)
 * 3.9 – Physical Security Controls
   * Physical Security Controls (22:09)
-4.1 – Identity and Access Management
-AAA and Authentication (9:30)
-4.2 – Identity and Access Services
-Identity and Access Services (7:39)
-PAP, CHAP, and MS-CHAP (4:09)
-Federated Identities (4:49)
-4.3 – Identity and Access Controls
+## Section 4 – Identity and Access Management
+* 4.1 – Identity and Access Management
+  * AAA and Authentication [(9:30)](https://www.professormesser.com/security-plus/sy0-501/aaa-and-authentication/)
+    * Authentication, Authorization, and Accounting
+    * Authentication - who we are (username, password)
+    * Authorization - based on who we are, what resources do we have access to?
+    * Accounting - Who logged in when for how long?
+    * Multi-factor authentication:
+      * Something you are
+      * Something you know - password, PIN, swipe pattern
+      * Somewhere you are - biometrics
+      * Something you have - smart card, usb token, mobile phone
+      * Something you do - handwriting, typing pattern, 
+      * Somewhere you are -
+      * Federated Network - authenticate with another count aka OAuth
+      * SSO - Single Sign On, single username and password when connecting the network (Kerberos)
+* 4.2 – Identity and Access Services
+  * Identity and Access Services [(7:39)](https://www.professormesser.com/security-plus/sy0-501/identity-and-access-services/)
+    * RADIUS - Remote Authentication Dial-in User Service
+      * Centralize authentication, multi-OS
+    * TACACS - Terminal Access Controller Access-Control System
+      * 
+    * LDAP
+      * container objects ("Orgs") and leafs ("printers", "comptuers")
+      * kerberos replaced LTMN for Windows
+      * mutual auth
+      * kerberos is ticket based      
+  * PAP, CHAP, and MS-CHAP (4:09)
+    * non-ethernet authentication (PPTP, PPoE)
+    * PAP - Password Authentication Protocol (it's old, no encryption)
+    * CHAP - Challenge-Handshake Authentication Protocol, challenge response
+    * MS-CHAP - Microsoft version of CHAP, vulnerable from DES use
+  * Federated Identities [(4:49)](https://www.professormesser.com/security-plus/sy0-501/federated-identities/)
+    * token based - server is stateless, client stores session token locally, client includes it with each request
+    * login ->, token sent <-, Request+token ->, Response <-
+    * federated often token based
+* 4.3 – Identity and Access Controls
 Access Control Models (6:06)
 Access Control Technologies (6:15)
 4.4 – Account Management
