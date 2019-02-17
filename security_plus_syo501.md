@@ -122,7 +122,18 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
      * memory leak - memory not deallocated
 ## Section 2 – Technologies and Tools
 * 2.1 Security Components
-  * Firewalls
+  * Firewalls [(9:17)](https://www.professormesser.com/security-plus/sy0-501/firewalls-3/)
+    * 
+    * filter at OSI Layer 4 ()
+    * OSI Layer 7 - Application filtering option
+    * Often used as VPN concentrators
+    * does Network Address Translation
+    * stateless - doesn't track sessions; just looks at ACLs, allow or disallow, requires return rules
+    * stateful - tracks outgoing connections, allows response, mostly this now
+    * "application layer gateway" looking at the packet, 
+    * host-based?
+    * ACLs - (dis)allow traffics
+    * 
   * VPN Concentrators [(7:59)](https://www.professormesser.com/security-plus/sy0-501/vpn-concentrators-5/)
     * SSL/TLS is common, runs from a browser, usually allowed, doesn't require special authentication
     * Full Tunnel - all traffic will traverse it (corp network and 3rd party redirected through it)
