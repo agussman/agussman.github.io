@@ -10,6 +10,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 ## Overview
 * Overview
   * Overview
+    * [CompTIA Security+ Certification Exam Objectives SYO-501](https://www.comptia.jp/pdf/Security%2B%20SY0-501%20Exam%20Objectives.pdf)
     * 1.0 Threats, Attacks, and Vulnerabilities 21%
     * 2.0 Technologies and Tools 22%
     * 3.0 Architecture and Design 15%
