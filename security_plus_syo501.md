@@ -275,10 +275,19 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * login ->, token sent <-, Request+token ->, Response <-
     * federated often token based
     * SAML - security assertion markup language
-   * 
 * 4.3 – Identity and Access Controls
-Access Control Models (6:06)
-Access Control Technologies (6:15)
+  * Access Control Models [(6:06)](https://www.professormesser.com/security-plus/sy0-501/access-control-models/)
+    * Authorization - 
+    * mandatory access control - MAC, set by sys admin
+    * Discretionary Access Control - have some controls (e.g., set spreadsheet access)
+    * role based access control -
+    * attrib8ute-based access control ABAC - IP, time of day
+    * rule based access control
+    * file system security
+  * Access Control Technologies [(6:15)](https://www.professormesser.com/security-plus/sy0-501/access-control-technologies/)
+    * FAR - false acceptance rate
+    * FRR - False Rejection Rate
+    * 
 4.4 – Account Management
 Account Types (4:01)
 Account Management (7:45)
