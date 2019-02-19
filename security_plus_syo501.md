@@ -36,9 +36,16 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Keyloggers (2:36)
   * Adware and Spyware (3:45)
   * Bots and Botnets (4:22)
-  * Logic Bombs [(3:52)]()
-    * 
+  * Logic Bombs [(3:52)](https://www.professormesser.com/security-plus/sy0-501/logic-bombs-3/)
+    * Waiting for a time or event
+    * Usually made by someone on the inside
 * 1.2 Attack Types
+  * Vishing
+    * voice phishing
+  * Pass the Hash Attack
+    * https://searchsecurity.techtarget.com/definition/pass-the-hash-attack
+    * Exploiting the has w/o access to the underlying password
+    * Vulnerability associated with Windows SSO / Local Security Authority Subsystem Service / NTLM / LM (LanMan)
   * DNS Poisoning and Domain Hijacking
     * https://www.professormesser.com/security-plus/sy0-501/dns-poisoning-and-domain-hijacking/
     * Domain Hijacking - points to the bad guy domain server
