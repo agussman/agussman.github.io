@@ -6,7 +6,10 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * Ports
 ## Things to Review More
 * VPN Concentrators
-
+* nonrepudiation - can't deny having used a digital signature
+* integrity - not altered
+* authentication - prove who you are
+* 
 ## Overview
 * Overview
   * Overview
@@ -149,6 +152,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
      * memory leak - memory not deallocated
 ## Section 2 – Technologies and Tools
 * 2.1 Security Components
+  * Another resource: http://www.pearsonitcertification.com/articles/article.aspx?p=2861453
   * Firewalls [(9:17)](https://www.professormesser.com/security-plus/sy0-501/firewalls-3/)
     * filter at OSI Layer 4 ()
     * OSI Layer 7 - Application filtering option
@@ -165,11 +169,11 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * Full Tunnel - all traffic will traverse it (corp network and 3rd party redirected through it)
     * Split Tunnel - only corporate traffic goes through it
     * Site to Site usually use firewalls
-    * IPSec - OSI Layer 3
+    * IPSec - OSI Layer 3, uses IKE (Internet Key Exchange)
     * Has an integrity check to prevent replay
     * standard across manufacturers
-    * AH - Authentication Header
-    * ESP - Encapsulation Security Payload
+    * AH - Authentication Header (type of IPSec)
+    * ESP - Encapsulation Security Payload (type of IPSec), adds confidentiality
     * Transport Mode - data encrypted, use original IP header
       [Original IP Header][IPsec Headers][Data][IPsec Trailers]
     * Tunnel Mode - IP Header and Data are encrypted, uses a different IP header (it's encrypted)
@@ -178,6 +182,15 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Network Intrusion Detection and Prevention [(7:51)](https://www.professormesser.com/security-plus/sy0-501/network-intrusion-detection-and-prevention-3/)
     * IDS - Intrusion Detection System (informs)
     * IPS - Intrusion Protection System (blocks)
+    * passive monitoring - gets a copy
+    * can send TCP reset "out of band response", doesn't work w/ UDP
+    * inline monitoring - passes through IPS
+    * signature based - perfect match
+    * anaomly - stats
+    * behavior
+    * heuristics - AI, characterisitcs, rules
+    * Can set lots of rules to tell IPS what to do
+    * network-based monitor network, host-based look at info originating on machine (unauthorized file mods, user activity)
     * RELISTEN
   * Router and Switch Security (12:31)
   * Proxies (4:13)
