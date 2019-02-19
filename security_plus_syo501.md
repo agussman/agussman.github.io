@@ -18,6 +18,26 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * 5.0 Risk Management 14%
     * 6.0 Cryptography and PKI 12%
 ## Section 1 – Threats, Attacks, and Vulnerabilities
+* 1.1 Malware
+  * An Overview of Malware (4:00)
+  * Viruses and Worms (5:01)
+  * Ransomware and Crypto-Malware (4:01)
+    * Ransomware - Hold your data hostage
+    * Crypto-malware - actually encrypts the data
+  * Trojans and RATs [(4:27)](https://www.professormesser.com/security-plus/sy0-501/trojans-and-rats/)
+    * Trojan - pretends to be something else
+    * installs a backdoor
+    * RAT - Remote Access Trojan / Remote Administration Tools
+    * DarkComet is a RAT
+  * Rootkits [(2:54)](https://www.professormesser.com/security-plus/sy0-501/rootkits-3/)
+    * Embedded at the lowest level of the OS (kernel level)
+    * Can't even stop the process, need a rootkit remover, 
+    * UEFI BIOS secure boot can prevent
+  * Keyloggers (2:36)
+  * Adware and Spyware (3:45)
+  * Bots and Botnets (4:22)
+  * Logic Bombs [(3:52)]()
+    * 
 * 1.2 Attack Types
   * DNS Poisoning and Domain Hijacking
     * https://www.professormesser.com/security-plus/sy0-501/dns-poisoning-and-domain-hijacking/
