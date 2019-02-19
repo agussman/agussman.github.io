@@ -137,7 +137,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * https://www.professormesser.com/security-plus/sy0-501/vulnerability-scanning-5/
     * minimally invasive
     *
- * Vulnerability Types
+ * 1.6 Vulnerability Types
    * Vulnerability Types
      * Race condition
      * End of Life avoid by upgrading
