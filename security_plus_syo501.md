@@ -420,7 +420,19 @@ Data Roles and Retention (3:00)
 
 ## Section 6 – Cryptography and PKI
 * 6.1 – Cryptography
-Cryptography Concepts (7:52)
+  * Cryptography Concepts [(7:52)](https://www.professormesser.com/security-plus/sy0-501/cryptography-concepts/)
+    * Confidential - secret
+    * Authentication and access control
+    * non-repudiation
+    * integrity - tamper proof
+    * ciphertext - encrypted content
+    * cipher - encrypt / decrypt
+    * cryptanalysis - cracking encryption
+    * key - add to cypher to encrypt
+    * confusion - data looks different from plain text, nonlinear, no patterns
+    * diffusion - one char change in input changes many characters in output
+    * ROT13 - shift 13 letters
+    * CSP Cryptographic Service Provider - windows crypto api library
 Symmetric and Asymmetric Encryption (6:07)
 Hashing and Digital Signatures (7:33)
 Randomizing Cryptography (3:35)
