@@ -25,3 +25,5 @@ The site is written in Python 3 and Angular 5. The backend deploys to AWS Lambda
 # Learning
 
  * [Study notes for the CompTia Security+ SYO-501 Exam](security_plus_syo501.md)
+ * [AWS Certified Solutions Engineer Study Notes](https://gist.github.com/agussman/3c61dc8dc79fcd78c56e185c556e91e7#file-aws-csa-a-notes-md)
+ * [Highlights from AWS re:Invent 218](https://www.linkedin.com/pulse/aws-reinvent-2017-highlights-aaron-gussman/)
