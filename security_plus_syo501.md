@@ -391,9 +391,17 @@ Account Policy Enforcement (4:23)
     * BIA: Life, Property, Safety, Finance, Reputation
     * Some compliance requires a privacy statement, Privacy Threshold Analysis (PTA)
 * 5.3 – Risk Management
-  * Risk Assessment (9:29)
+  * Risk Assessment [(9:29)](https://www.professormesser.com/security-plus/sy0-501/risk-assessment/)
+    * environmental, man-made
+    * ARO Annualized Rate of Occurent - how likely per year
+    * SLE Single Loss Expectancy - monetary loss if it occurs
+    * ALE Annual Loss Expectancy - ARO x SLE
+    * quantitative and qualitative (traffic light grid)
+    * Business Impact Analysis BIA -
+    * Risk avoidance: Transference (insurance), Acceptance, Mitigation (invest in security)
+    * Formal change management process is a normal part of minimizing risk
 * 5.4 – Incident Response
-Incident Response Planning (6:08)
+  * Incident Response Planning (6:08)
 Incident Response Process (7:14)
 * 5.5 – Forensics
 Gathering Forensics Data (8:22)
@@ -411,7 +419,6 @@ Handling Sensitive Data (2:18)
 Data Roles and Retention (3:00)
 
 ## Section 6 – Cryptography and PKI
-
 * 6.1 – Cryptography
 Cryptography Concepts (7:52)
 Symmetric and Asymmetric Encryption (6:07)
