@@ -9,7 +9,26 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * nonrepudiation - can't deny having used a digital signature
 * integrity - not altered
 * authentication - prove who you are
-* 
+* UTM - unified threat management
+* 2.1 Router, Switch, Proxy, 
+* Review list of command line tools: ping
+- netstat
+- tracert
+- nslookup/dig
+- arp
+- ipconfig/ip/ifconfig
+- tcpdump
+- nmap
+- netcat
+ Hardware/firmware security
+- FDE/SED
+- TPM
+- HSM
+- UEFI/BIOS
+- Secure boot and attestation
+- Supply chain
+- Hardware root of trust
+- EMI/EMP
 ## Overview
 * Overview
   * Overview
@@ -242,7 +261,15 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Mobile Device Enforcement (11:37)
   * Mobile Device Deployment Models (4:04)
 * 2.6 – Secure Protocols
-  * Secure Protocols (10:27)
+  * Secure Protocols [(10:27)](https://www.professormesser.com/security-plus/sy0-501/secure-protocols/)
+    * SRTP Secure Real-Time transport proptocol (voice/video), adds AES
+    * S/MIME Secure/Multipurpose INternet Mail Extesions, requires PKI
+    * SSL/TLS uses assymetric to transfer a symetric key
+    * LDAP more secure, do LDAPS, or SASL
+    * SNMPv3 - Simple Network Management Protocol v 3, Co/Int/Auth
+    * DHCP doesn't have security (threat of rouge DHCP, "DHCP starvation" keep requesting DHCP)
+    * 
+## Section 3 – Architecture and Design
 * 3.1 – Security Frameworks
   * Compliance and Frameworks (5:20)
   * Secure Configuration Guides (5:46)
@@ -332,11 +359,11 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 Account Types (4:01)
 Account Management (7:45)
 Account Policy Enforcement (4:23)
-5.1 – Security Policies
-Agreement Types (4:10)
-Personnel Management (5:17)
-Role-based Awareness Training (2:43)
-General Security Policies (1:56)
+* 5.1 – Security Policies
+  * Agreement Types (4:10)
+  * Personnel Management (5:17)
+  * Role-based Awareness Training (2:43)
+  * General Security Policies (1:56)
 5.2 – Business Impact Analysis
 Business Impact Analysis (9:06)
 5.3 – Risk Management
