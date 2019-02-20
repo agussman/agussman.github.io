@@ -79,8 +79,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * MITM could be how you got the traffic
     * Original user doesn't need to be on the network
     * Thwarted by encrypted traffic, salted passwords
-  * Client Hijacking Attacks
-    * https://www.professormesser.com/security-plus/sy0-501/client-hijacking-attacks/
+  * Client Hijacking Attacks [(9:01)](https://www.professormesser.com/security-plus/sy0-501/client-hijacking-attacks/)
     * Redirecting to a different site (mispellings/typosquatting, similar product or brand)
     * click jacking (some invisible website underneath?)
     * Common on mobile devices
@@ -139,11 +138,16 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * Blue snarfing someone actually gets your data
   * RFID and NFC Attacks
     * NFC - Near Field Communications, is two way
-    * 
   * Wireless Disassociation Attacks
     * Management frames aren't encrypted or authenticated
-    * 
-  * Cryptographic Attacks
+  * Cryptographic Attacks [(9:54)](https://www.professormesser.com/security-plus/sy0-501/cryptographic-attacks/)
+    * KPA Known Plaintext Attack - have some plaintext (crib), break it down
+    * Rainbow Tables - precalculated hashes, fail on salted input
+    * dictionary attack - try common pws
+    * brute force attacks work better if you can get the users/hashes offline
+    * larger hashes are less likely to have collisions
+    * 801.11 WEP and DES are both weak
+    * Kerberos puts a timestamp to prevent replay attacks
 * 1.3 Threat Actors
 * 1.4 Penetration Testing
   * Penetration Testing
@@ -158,7 +162,6 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Vulnerability Scanning
     * https://www.professormesser.com/security-plus/sy0-501/vulnerability-scanning-5/
     * minimally invasive
-    *
  * 1.6 Vulnerability Types
    * Vulnerability Types
      * Race condition
