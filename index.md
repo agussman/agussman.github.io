@@ -25,7 +25,7 @@ The site is written in Python 3 and Angular 5. The backend deploys to AWS Lambda
 
 It's available in the [Alexa Skill Marketplace](https://www.amazon.com/%F0%9F%8D%92-percontate-Satellites-Above/dp/B07K6M15TC/ref=sr_1_1?keywords=satellites+above&qid=1550684579&s=digital-skills&sr=1-1-catcorr)
 
-# Learning :brain:
+# Learning :lightbulb:
 
  * [Study notes for the CompTia Security+ SYO-501 Exam](security_plus_syo501.md)
  * [AWS Certified Solutions Engineer Study Notes](https://gist.github.com/agussman/3c61dc8dc79fcd78c56e185c556e91e7#file-aws-csa-a-notes-md)
