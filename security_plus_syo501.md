@@ -3,6 +3,9 @@
 Following along with https://www.professormesser.com/security-plus/sy0-501/
 
 * OSI Model
+  * Layer 1 Hub
+  * Layer 2 Switch
+  * Layer 3 Router
 * Ports
 ## Things to Review More
 * VPN Concentrators
@@ -215,7 +218,16 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * Can set lots of rules to tell IPS what to do
     * network-based monitor network, host-based look at info originating on machine (unauthorized file mods, user activity)
     * RELISTEN
-  * Router and Switch Security (12:31)
+  * Router and Switch Security [(12:31)](https://www.professormesser.com/security-plus/sy0-501/router-and-switch-security/)
+    * Routers can prevent IP spoofing
+    * Port security - only specific MAC addresses (or # thereof) are allowed to connect
+    * That's only a deterrent; you can spoof MAC addresses, hide hosts behind a small router
+    * floodguard - max # of mac addresses to preventDDoS
+    * STP Spanning Tree Protocol - prevents network loops, dynamically modify network topology
+    * parallel bridges can create looping problems
+    * BPDU bridge protocol data units are special messages to prevent loops
+    * RPF Reverse Path Forwarding - inbound traffic responds the same way (e.g., don't send outside)
+    * NAC Network Access Control (EAP and RADIUS)
   * Proxies (4:13)
   * Load Balancers (5:43)
   * Access Points (10:25)
