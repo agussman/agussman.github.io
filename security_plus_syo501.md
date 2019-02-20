@@ -169,6 +169,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
      * cypher suite - protocol (AES, 3DS), length, hash (sha, md5)
      * TLS is a common suite
      * memory leak - memory not deallocated
+     
 ## Section 2 – Technologies and Tools
 * 2.1 Security Components
   * Another resource: http://www.pearsonitcertification.com/articles/article.aspx?p=2861453
@@ -269,6 +270,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * SNMPv3 - Simple Network Management Protocol v 3, Co/Int/Auth
     * DHCP doesn't have security (threat of rouge DHCP, "DHCP starvation" keep requesting DHCP)
     * 
+
 ## Section 3 – Architecture and Design
 * 3.1 – Security Frameworks
   * Compliance and Frameworks (5:20)
@@ -305,6 +307,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Redundancy, Fault Tolerance, and High Availability (5:44)
 * 3.9 – Physical Security Controls
   * Physical Security Controls (22:09)
+
 ## Section 4 – Identity and Access Management
 * 4.1 – Identity and Access Management
   * AAA and Authentication [(9:30)](https://www.professormesser.com/security-plus/sy0-501/aaa-and-authentication/)
@@ -359,33 +362,57 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 Account Types (4:01)
 Account Management (7:45)
 Account Policy Enforcement (4:23)
+
+## Section 5 – Risk Management
 * 5.1 – Security Policies
-  * Agreement Types (4:10)
+  * Agreement Types [(4:10)](https://www.professormesser.com/security-plus/sy0-501/agreement-types/)
+    * SOPs
+    * Interoperability agreements
+    * SLA
+    * BPA - Business Parnters Agreement (manufacturers and resellers)
+    * ISA - Interconnection Security Agreement (Feds, defines sec controls)
+    * MOU - intent
+    * MOA - above an MOU
   * Personnel Management (5:17)
   * Role-based Awareness Training (2:43)
-  * General Security Policies (1:56)
-5.2 – Business Impact Analysis
-Business Impact Analysis (9:06)
-5.3 – Risk Management
-Risk Assessment (9:29)
-5.4 – Incident Response
+  * General Security Policies [(1:56)](https://www.professormesser.com/security-plus/sy0-501/general-security-policies/)
+    * Social media, code of conduct, confidentiality
+    * Email use
+* 5.2 – Business Impact Analysis
+  * Business Impact Analysis [(9:06)](https://www.professormesser.com/security-plus/sy0-501/business-impact-analysis-3/)
+    * MTTR - Mean Time To Restore
+    * MTTF - Mean Time to Failure
+    * MTBF - Mean Time Between Failures
+    * RTO - Recovery Time Objectives - at what point you're back up, multiple levels
+    * RPO - Recovery Point Objectives - degrees of restoration, degrees of data loss
+    * Uptime expressed as availability % ("availability" definition is negotiated)
+    * Identify mission essential functions
+    * Remove single points of failure: equipment, facilities/utilities, people/locations
+    * BIA: Life, Property, Safety, Finance, Reputation
+    * Some compliance requires a privacy statement, Privacy Threshold Analysis (PTA)
+* 5.3 – Risk Management
+  * Risk Assessment (9:29)
+* 5.4 – Incident Response
 Incident Response Planning (6:08)
 Incident Response Process (7:14)
-5.5 – Forensics
+* 5.5 – Forensics
 Gathering Forensics Data (8:22)
 Using Forensics Data (2:32)
-5.6 – Disaster Recovery
+* 5.6 – Disaster Recovery
 Disaster Recovery Sites (1:51)
 Application Recovery (5:25)
 Geographic Considerations (3:18)
 Continuity of Operations (4:49)
-5.7 – Security Controls
+* 5.7 – Security Controls
 Security Controls (3:10)
-5.8 – Data Security and Privacy
+* 5.8 – Data Security and Privacy
 Data Destruction (5:02)
 Handling Sensitive Data (2:18)
 Data Roles and Retention (3:00)
-6.1 – Cryptography
+
+## Section 6 – Cryptography and PKI
+
+* 6.1 – Cryptography
 Cryptography Concepts (7:52)
 Symmetric and Asymmetric Encryption (6:07)
 Hashing and Digital Signatures (7:33)
