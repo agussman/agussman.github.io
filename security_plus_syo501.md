@@ -14,24 +14,25 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * authentication - prove who you are
 * UTM - unified threat management
 * 2.1 Router, Switch, Proxy, 
-* Review list of command line tools: ping
-- netstat
-- tracert
-- nslookup/dig
-- arp
-- ipconfig/ip/ifconfig
-- tcpdump
-- nmap
-- netcat
- Hardware/firmware security
-- FDE/SED
-- TPM
-- HSM
-- UEFI/BIOS
-- Secure boot and attestation
-- Supply chain
-- Hardware root of trust
-- EMI/EMP
+* Review list of command line tools:
+  - ping
+  - netstat
+  - tracert
+  - nslookup/dig
+  - arp
+  - ipconfig/ip/ifconfig
+  - tcpdump
+  - nmap
+  - netcat
+* Hardware/firmware security
+  - FDE/SED
+  - TPM
+  - HSM
+  - UEFI/BIOS
+  - Secure boot and attestation
+  - Supply chain
+  - Hardware root of trust
+  - EMI/EMP
 ## Overview
 * Overview
   * Overview
@@ -284,7 +285,6 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * LDAP more secure, do LDAPS, or SASL
     * SNMPv3 - Simple Network Management Protocol v 3, Co/Int/Auth
     * DHCP doesn't have security (threat of rouge DHCP, "DHCP starvation" keep requesting DHCP)
-    * 
 
 ## Section 3 – Architecture and Design
 * 3.1 – Security Frameworks
@@ -292,7 +292,10 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Secure Configuration Guides (5:46)
   * Defense-in-Depth (3:24)
 * 3.2 – Securing the Network
-  * Secure Network Topologies (6:59)
+  * Secure Network Topologies [(6:59)](https://www.professormesser.com/security-plus/sy0-501/secure-network-topologies/)
+    * DMZ
+    * Extranet, Intranet
+    * NAT isn't security
   * Network Segmentation (5:19)
   * VPN Technologies (3:00)
   * Security Technology Placement (11:28)
