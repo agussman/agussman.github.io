@@ -1,7 +1,8 @@
 # About Me :ghost:
  * [GitHub Projects](https://github.com/agussman)
- * My professional social media presence: [LinkedIn](https://www.linkedin.com/in/aaron-gussman-8612744/) 
+ * My professional social media presence: [LinkedIn](https://www.linkedin.com/in/aaron-gussman-8612744/)
  * My unprofessional social media presence: [@percontate on Twitter](https://twitter.com/percontate)
+ * [Alexa Skills I've Made](https://www.amazon.com/s?k=%40percontate&i=alexa-skills&ref=nb_sb_noss)
 
 # Projects
 
@@ -21,6 +22,8 @@ The site is written in Python 3 and Angular 5. The backend deploys to AWS Lambda
 ## Satellites Above [Alexa Skill]
 
 [This Alexa skill](https://github.com/agussman/satellites_above) accesses the user-provided device location, geolocates it, and queries the N2YO api to count the number of satellites overhead at that exactly moment.
+
+It's available in the [Alexa Skill Marketplace](https://www.amazon.com/%F0%9F%8D%92-percontate-Satellites-Above/dp/B07K6M15TC/ref=sr_1_1?keywords=satellites+above&qid=1550684579&s=digital-skills&sr=1-1-catcorr)
 
 # Learning
 
