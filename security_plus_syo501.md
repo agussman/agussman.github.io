@@ -17,13 +17,21 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * Review list of command line tools:
   - ping
   - netstat
+    * http://techgenix.com/determining-you-actively-being-compromised/
+    * unrecognized foreign addresses, especially in the ESTABLISHED state
+    * LISTENING connections on your local system on odd ports
   - tracert
   - nslookup/dig
   - arp
+    * List cached MAC addresses
   - ipconfig/ip/ifconfig
   - tcpdump
+    * capture network traffic
   - nmap
+    * find devices on the network, OSs, services
   - netcat
+    * Read or write data to the network
+    * could be a backdoor
 * Hardware/firmware security
   - FDE/SED
   - TPM
@@ -263,7 +271,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * 
   * Command Line Security Tools [(19:39)](https://www.professormesser.com/security-plus/sy0-501/command-line-security-tools/)
     * dig replaces nslookup
-    * ARP cache maps device MAC to IP
+    * ARP cache maps device MAC to IP (arp displays this)
     * TCP dump, gets it in PCAP
     * nmap - network mapper, port scan, os scan, service scan
     * 
