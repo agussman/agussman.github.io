@@ -19,6 +19,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * 2.1 Router, Switch, Proxy, 
 * Review list of command line tools:
   - ping
+    * ICMP Internet Control Message Protocol
   - netstat
     * http://techgenix.com/determining-you-actively-being-compromised/
     * unrecognized foreign addresses, especially in the ESTABLISHED state
@@ -42,7 +43,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   - Cain & Abel - password cracking (WEP)
   - John the Ripper - password cracking
   - pfSense - firewall/router
-  - Security Onion - 
+  - Security Onion - IDS, network monitoring
   - Roo
   
 * Hardware/firmware security
