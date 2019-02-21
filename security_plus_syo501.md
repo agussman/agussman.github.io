@@ -13,6 +13,9 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * integrity - not altered
 * authentication - prove who you are
 * UTM - unified threat management (firewall, a malware inspector, a URL filter)
+* SFC Systems File Checker - Windows utility to check files
+* OCSP Online Certificate Status Protocol
+* CRL Certificate Revocation List
 * 2.1 Router, Switch, Proxy, 
 * Review list of command line tools:
   - ping
@@ -559,8 +562,14 @@ Obfuscation (3:53)
     * Businesses use WPA-Enterprise / WPA-802.1X: use 802.1X w/ RADIUS
     * Captive Portal: popup w/ login
     * WPS WiFi Protected Setup (originally WiFI Simple Config), "easy" setup, flawed, uses 8 digit PIN but not really, easily brute forced
-6.4 – Public Key Infrastructure
-PKI Components (8:29)
+* 6.4 – Public Key Infrastructure
+  * PKI Components [(8:29)](https://www.professormesser.com/security-plus/sy0-501/pki-components/)
+    * X.509 Certificate Format
+    * CSR Certificate Signing Request - send public key to a CA to be digitally signed
+    * CA in-hosue w/ WIndows Certificates Services or OpenCA
+    * root + intermediate CAs
+    * OCSP Online Certificate Status Protocol - browser checks status of a cert
+    * CRL Certificate Revocation list
 PKI Concepts (6:18)
 Types of Certificates (6:21)
 Certificate File Formats (3:21)
