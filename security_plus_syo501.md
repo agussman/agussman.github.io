@@ -487,7 +487,7 @@ Data Roles and Retention (3:00)
     * CSP Cryptographic Service Provider - windows crypto api library
   * Symmetric and Asymmetric Encryption (6:07)
   * Hashing and Digital Signatures (7:33)
-  * Randomizing Cryptography [(3:35)}(https://www.professormesser.com/security-plus/sy0-501/randomizing-cryptography/)
+  * Randomizing Cryptography [(3:35)](https://www.professormesser.com/security-plus/sy0-501/randomizing-cryptography/)
     * nonce - arbitrary number used once, prevents replay attacks
     * IV Initialization Vector - nonce
     * salt - added to password hash, makes them unpredictable
@@ -507,9 +507,27 @@ Key Stretching Algorithms (1:32)
 Obfuscation (3:53)
 * 6.3 – Wireless Security
   * Wireless Cryptographic Protocols [(3:30)](https://www.professormesser.com/security-plus/sy0-501/wireless-cryptographic-protocols/)
-    * 
-  * Wireless Authentication Protocols (5:21)
-  * Wireless Security (4:46)
+    * WPA and WPA2 wifi encryption standards
+    * WEP is bad, WPA was a stop-gap replacement
+    * WPA WiFi Protected Access (RC4 w/ TKIP), larger IV, 128bit encryption
+    * TKIP Temporal Key Integrity Protocol - secret root key w/ IV, sequence counter, 64bit message integrity check, TKIP is vulnerable
+    * WPA2 uses AES ecnryption over RC4, CCMP Counter Mode with Cipher Block Chaining replaces TKIP
+    * CCMP uses AES, 128bit / 128 bit
+    * Use WPA2: condientiality/encription, authentication, and access control
+  * Wireless Authentication Protocols [(5:21)](https://www.professormesser.com/security-plus/sy0-501/wireless-authentication-protocols/)
+    * EAP Extensible Authetication Protocol: more of a framework
+    * EAP-FAST Flexibile Authentication via Secure Tunneling replace LEAP
+    * EAP-TLS EAP Transport Layer Security: good, common
+    * EAP-TTLS EAP Tunneled Transport Layer Security: use a TLS tunnel to use whatever authentication you want
+    * PEAP Proected Extensible Authentication Protocol: EAP+ TLS, PEAPv)/EAP-MSCHAPv2
+    * 802.1X - port-based NAC authentication, used w/ RADIUS/LDAP/TACACS+/etc
+    * Supplicant <-> Authenticator <-> Authentication Server
+    * RADIUS Federation uses 802.1X as authentication method, RADIUS on the backend, EAP to authenticate
+  * Wireless Security [(4:46)](https://www.professormesser.com/security-plus/sy0-501/wireless-security-3/)
+    * Home use WPA-Personal / WPA-PSK: WPA2, everyone uses the same 256bit key
+    * Businesses use WPA-Enterprise / WPA-802.1X: use 802.1X w/ RADIUS
+    * Captive Portal: popup w/ login
+    * WPS WiFi Protected Setup (originally WiFI Simple Config), "easy" setup, flawed, uses 8 digit PIN but not really, easily brute forced
 6.4 – Public Key Infrastructure
 PKI Components (8:29)
 PKI Concepts (6:18)
