@@ -342,7 +342,13 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * 3.4 – Secure Deployments
   * Secure Deployments (3:43)
 * 3.5 – Embedded Systems
-  * Embedded Systems (8:39)
+  * Embedded Systems [(8:39)](https://www.professormesser.com/security-plus/sy0-501/embedded-systems/)
+    * SCADA Supervisory Control and Data Acquisition
+    * ICS Industrial Control Systems
+    * typically isolated network
+    * SOC System on a Chip
+    * RTOS Real-Time Operating System - important
+    * MFD Multifunction Device - print/scanner
 * 3.6 – Secure Application Development
   * Development Life Cycle Models (3:33)
   * Secure DevOps (6:18)
