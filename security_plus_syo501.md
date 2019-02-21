@@ -233,11 +233,11 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * IPSec - OSI Layer 3, uses IKE (Internet Key Exchange)
     * Has an integrity check to prevent replay
     * standard across manufacturers
-    * AH - Authentication Header (type of IPSec)
-    * ESP - Encapsulation Security Payload (type of IPSec), adds confidentiality
-    * Transport Mode - data encrypted, use original IP header
+    * AH - Authentication Header (type of IPSec), "authentication and integrity"
+    * ESP - Encapsulation Security Payload (type of IPSec), adds confidentiality, "authentication, integrity, and confidentiality"
+    * Transport Mode - "payload encrypted", data encrypted, use original IP header
       [Original IP Header][IPsec Headers][Data][IPsec Trailers]
-    * Tunnel Mode - IP Header and Data are encrypted, uses a different IP header (it's encrypted)
+    * Tunnel Mode - "entire packet encryption", IP Header and Data are encrypted, uses a different IP header (it's encrypted)
       [New IP Header][IPsec Headers][IP Header][Data][IPsec Trailers]
     * TODO: Review this more
   * Network Intrusion Detection and Prevention [(7:51)](https://www.professormesser.com/security-plus/sy0-501/network-intrusion-detection-and-prevention-3/)
@@ -263,7 +263,12 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * BPDU bridge protocol data units are special messages to prevent loops
     * RPF Reverse Path Forwarding - inbound traffic responds the same way (e.g., don't send outside)
     * NAC Network Access Control (EAP and RADIUS)
-  * Proxies (4:13)
+  * Proxies [(4:13)](https://www.professormesser.com/security-plus/sy0-501/proxies/)
+    * Explicit Proxy - 
+    * NAT is a stype of proxy
+    * forward proxy - protect users connecting to internet, url filtering
+    * reverse proxy - protect server from the internet
+    * "open proxy" - third-party, circumvents security
   * Load Balancers (5:43)
   * Access Points (10:25)
   * SIEM [(7:11)](https://www.professormesser.com/security-plus/sy0-501/siem-2/)
