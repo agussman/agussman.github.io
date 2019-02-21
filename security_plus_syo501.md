@@ -333,7 +333,8 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Network Segmentation (5:19)
   * VPN Technologies (3:00)
   * Security Technology Placement (11:28)
-  * Securing SDN (2:39)
+  * Securing SDN Software Defined Networking [(2:39)](https://www.professormesser.com/security-plus/sy0-501/securing-sdn/)
+    * control plane for config, data plane for work
 * 3.3 – Secure Systems Design
   * Hardware Security (6:59)
   * Operating System Security (12:16)
@@ -496,7 +497,8 @@ Data Roles and Retention (3:00)
   * Steganography (2:34)
   * Stream and Block Ciphers (1:55)
   * States of Data (3:07)
-  * Perfect Forward Secrecy (2:10)
+  * PFS Perfect Forward Secrecy [(2:10)](https://www.professormesser.com/security-plus/sy0-501/perfect-forward-secrecy-2/)
+    * Don't use the server's private RSA key; every session uses a different key
   * Common Cryptography Use Cases (4:21)
 * 6.2 – Cryptography Algorithms
 Symmetric Algorithms (4:45)
