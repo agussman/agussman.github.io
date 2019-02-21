@@ -78,6 +78,8 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * Waiting for a time or event
     * Usually made by someone on the inside
 * 1.2 Attack Types
+  * Sideloading
+    * Installing software on a mobile device via non-traditional channels
   * Vishing
     * voice phishing
   * Pass the Hash Attack
@@ -92,7 +94,9 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Watering Hole Attacks
   * Principles of Social Engineering
   * Denial of Service
-  * Man-in-the-MIddle
+  * MITM Man-in-the-Middle
+  * MITB Man-in-the-Browser
+    * type of MITM with a compromised browser
   * BUffer Overflows
   * Data Injections
   * Cross-site scripting XSS [(7:02)](https://www.professormesser.com/security-plus/sy0-501/cross-site-scripting-3/)
@@ -147,8 +151,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
       * the response is a huge and routed to the target
       * do that lots to overwhelm target's bandwith
     * spoofed IP address is easier to detect, can trap at the firewall
-  * Wireless Replay Attacks
-    * https://www.professormesser.com/security-plus/sy0-501/wireless-replay-attacks/
+  * Wireless Replay Attacks [(3:32)](https://www.professormesser.com/security-plus/sy0-501/wireless-replay-attacks/)
     * Easier to capture the traffic
     * WEP didn't have encryption that prevented this
     * you can crack the password on a 802.11 WEP network with 10k-15k gathered password
@@ -502,10 +505,11 @@ Asymmetric Algorithms (5:04)
 Hashing Algorithms (3:36)
 Key Stretching Algorithms (1:32)
 Obfuscation (3:53)
-6.3 – Wireless Security
-Wireless Cryptographic Protocols (3:30)
-Wireless Authentication Protocols (5:21)
-Wireless Security (4:46)
+* 6.3 – Wireless Security
+  * Wireless Cryptographic Protocols [(3:30)](https://www.professormesser.com/security-plus/sy0-501/wireless-cryptographic-protocols/)
+    * 
+  * Wireless Authentication Protocols (5:21)
+  * Wireless Security (4:46)
 6.4 – Public Key Infrastructure
 PKI Components (8:29)
 PKI Concepts (6:18)
