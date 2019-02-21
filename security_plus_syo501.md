@@ -54,7 +54,11 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 ## Section 1 – Threats, Attacks, and Vulnerabilities
 * 1.1 Malware
   * An Overview of Malware (4:00)
-  * Viruses and Worms (5:01)
+  * Viruses and Worms [(5:01)](https://www.professormesser.com/security-plus/sy0-501/viruses-and-worms-3/)
+    * Virus needs you to execute a program, may or may not cause problems
+    * Virus can be a program, boot sector, script, or macro
+    * Worm can self-replicate w/o human intervention over the network
+    * Wannacry was a famous Ransomware Worm
   * Ransomware and Crypto-Malware (4:01)
     * Ransomware - Hold your data hostage
     * Crypto-malware - actually encrypts the data
