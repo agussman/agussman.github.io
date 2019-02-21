@@ -84,6 +84,25 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * https://searchsecurity.techtarget.com/definition/pass-the-hash-attack
     * Exploiting the has w/o access to the underlying password
     * Vulnerability associated with Windows SSO / Local Security Authority Subsystem Service / NTLM / LM (LanMan)
+  * Phishing
+  * Tailgating and Impersonation
+  * Dumpster Diving
+  * Shoulder Surfing
+  * Hoaxes
+  * Watering Hole Attacks
+  * Principles of Social Engineering
+  * Denial of Service
+  * Man-in-the-MIddle
+  * BUffer Overflows
+  * Data Injections
+  * Cross-site scripting XSS [(7:02)](https://www.professormesser.com/security-plus/sy0-501/cross-site-scripting-3/)
+    * Non-persistent / reflected
+    * Happens in the browser
+    * Example: Submitting javascript via a form that grabs user session info / cookies
+    * Persistent / stored - everyone gets it who goes to the page, untargetted
+  * Cross-site Request Forgery XSRF, CSRF [(2:48)](https://www.professormesser.com/security-plus/sy0-501/cross-site-request-forgery/)
+    * Web app should prevent it
+    * Example: Some link that requests an action, an authenticated user clicking on it unwittingly causes the action
   * DNS Poisoning and Domain Hijacking
     * https://www.professormesser.com/security-plus/sy0-501/dns-poisoning-and-domain-hijacking/
     * Domain Hijacking - points to the bad guy domain server
@@ -463,17 +482,20 @@ Data Roles and Retention (3:00)
     * diffusion - one char change in input changes many characters in output
     * ROT13 - shift 13 letters
     * CSP Cryptographic Service Provider - windows crypto api library
-Symmetric and Asymmetric Encryption (6:07)
-Hashing and Digital Signatures (7:33)
-Randomizing Cryptography (3:35)
-Weak Encryption (3:19)
-Cryptographic Keys (3:47)
-Steganography (2:34)
-Stream and Block Ciphers (1:55)
-States of Data (3:07)
-Perfect Forward Secrecy (2:10)
-Common Cryptography Use Cases (4:21)
-6.2 – Cryptography Algorithms
+  * Symmetric and Asymmetric Encryption (6:07)
+  * Hashing and Digital Signatures (7:33)
+  * Randomizing Cryptography [(3:35)}(https://www.professormesser.com/security-plus/sy0-501/randomizing-cryptography/)
+    * nonce - arbitrary number used once, prevents replay attacks
+    * IV Initialization Vector - nonce
+    * salt - added to password hash, makes them unpredictable
+  * Weak Encryption (3:19)
+  * Cryptographic Keys (3:47)
+  * Steganography (2:34)
+  * Stream and Block Ciphers (1:55)
+  * States of Data (3:07)
+  * Perfect Forward Secrecy (2:10)
+  * Common Cryptography Use Cases (4:21)
+* 6.2 – Cryptography Algorithms
 Symmetric Algorithms (4:45)
 Block Cipher Modes (5:44)
 Asymmetric Algorithms (5:04)
