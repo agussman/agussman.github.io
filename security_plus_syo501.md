@@ -34,13 +34,17 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
     * could be a backdoor
 * Hardware/firmware security
   - FDE/SED
-  - TPM
-  - HSM
+    * Encrypted disks
+  - TPM Trusted Platform Module
+    * on-host encryption
+  - HSM Hardware Security MOdule
+    * key management, crypto-processing
   - UEFI/BIOS
+    * Secure BIOS
   - Secure boot and attestation
   - Supply chain
   - Hardware root of trust
-  - EMI/EMP
+  - EMI/EMP Electro-magnetic Interference
 ## Overview
 * Overview
   * Overview
