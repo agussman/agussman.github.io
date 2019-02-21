@@ -12,7 +12,7 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
 * nonrepudiation - can't deny having used a digital signature
 * integrity - not altered
 * authentication - prove who you are
-* UTM - unified threat management
+* UTM - unified threat management (firewall, a malware inspector, a URL filter)
 * 2.1 Router, Switch, Proxy, 
 * Review list of command line tools:
   - ping
@@ -32,6 +32,16 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   - netcat
     * Read or write data to the network
     * could be a backdoor
+* Other Software Tools
+  - OpenVAS - vulnerability scanner
+  - Metasploit/Metasploitable2 - pentesting tool
+  - Back Orifice - rootkit
+  - Cain & Abel - password cracking (WEP)
+  - John the Ripper - password cracking
+  - pfSense - firewall/router
+  - Security Onion - 
+  - Roo
+  
 * Hardware/firmware security
   - FDE/SED
     * Encrypted disks
@@ -314,7 +324,11 @@ Following along with https://www.professormesser.com/security-plus/sy0-501/
   * Common Security Issues [(18:16)](https://www.professormesser.com/security-plus/sy0-501/common-security-issues/)
     * 
 * 2.4 – Analyzing Security Output
-  * Analyzing Security Output (11:42)
+  * Analyzing Security Output [(11:42)](https://www.professormesser.com/security-plus/sy0-501/analyzing-security-output/)
+    * UTM Unified Threat Management
+    * DLP Data Loss Prevention
+    * DEP Data Execution Prevention - sandboxed memory for software execution
+    * DSS Data Security Standard (industry standard, eg payments)
 * 2.5 – Securing Mobile Devices
   * Mobile Device Connection Methods (6:47)
   * Mobile Device Management (13:17)
