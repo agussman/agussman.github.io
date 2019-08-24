@@ -1,5 +1,3 @@
-
-
 Google Cloud Platform consists of the following:
  * Compute Engine - Infrastructure as a Service (IaaS), VMs, good fit for existing systems, create a custom machine "shape"
  * App Engine - Platform as a Service (PaaS), make your web code run extremely well
