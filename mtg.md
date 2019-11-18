@@ -10,7 +10,7 @@ Some of the things I'm looking for:
  ## Data Entry / Scanning Apps
  
  * [Delver Lens](https://delverlab.com/)
-   * App available for Android and iOS
+   :+1: App available for Android and iOS
    * Overall seems very good.
    * Has it's own internal collection management capabilities, but no web interface.
    * You need to pay to export more than 100 cards at a time, but the free capabilities seem pretty generous.
