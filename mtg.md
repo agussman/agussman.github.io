@@ -25,6 +25,10 @@ Some of the things I'm looking for:
     * Closest thing to a gold standard for collection management.
     * This is what I've been using, but I'm not thrilled with it. It's tedious to enter cards and the filtering/search is just wonky.
     * [Good rundown of its features](https://www.reddit.com/r/EDH/comments/bg7w2h/digitally_managing_your_magic_collection_and_decks/elj8a4c/)
+  * [TappedOut](https://tappedout.net/)
+    * Lots of features, including Decks and Collection
+    * Lots of ads
+    * No way to incrementally add a .CSV of cards; looks like it just overwrites everything
   * [CardCastle](https://cardcastle.co/)
     * Looks promising
     * Free tier only allows up to 1,000 cards
