@@ -18,6 +18,8 @@ Some of the things I'm looking for:
    * Has a card scanner (haven't tried it)
  * [Decked Builder](https://www.deckedbuilder.com/)
    * iOS only
+ * [Helvault](https://aetherhub.com/Collection/CardScanner)
+   * iOS only
  * [CardCastle](https://cardcastle.co/)
    * Has a scanning app, haven't tested it because CardCastle is low on the list (see below)
  
@@ -32,7 +34,9 @@ Some of the things I'm looking for:
     * Lots of ads
     * No way to incrementally add a .CSV of cards; looks like it just overwrites everything
   * [AetherHub](https://aetherhub.com/)
-    * 
+    * Looks extremely promising, if I can get DelverLens to import I'll probably use this
+    * Reasonable free tier
+    * Has card scanning support via [Helvault](https://aetherhub.com/Collection/CardScanner) (iOS only)
   * [CardCastle](https://cardcastle.co/)
     * Looks promising
     * Free tier only allows up to 1,000 cards
