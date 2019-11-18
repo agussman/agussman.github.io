@@ -37,6 +37,9 @@ Some of the things I'm looking for:
     * Looks extremely promising, if I can get DelverLens to import I'll probably use this
     * Reasonable free tier
     * Has card scanning support via [Helvault](https://aetherhub.com/Collection/CardScanner) (iOS only)
+  * [MTGGoldfish](https://www.mtggoldfish.com/)
+    * One of (if not the) best site for understanding card prices
+    * Free tier only covers 100 cards, Premium is $6/month
   * [CardCastle](https://cardcastle.co/)
     * Looks promising
     * Free tier only allows up to 1,000 cards
