@@ -5,6 +5,7 @@ There are a nuber of different tools avaiable for managing and organizing your M
 Some of the things I'm looking for:
  * I need a web interface. Anything soley on the phone won't work.
  * I want more than just deck management; I actually want to be able to support searching my entire inventory of cards.
+ * I deal with a lot of Foils and so it should support that as easily as possible
  
  ## Data Entry / Scanning Apps
  
@@ -25,15 +26,30 @@ Some of the things I'm looking for:
     * Looks promising
     * Free tier only allows up to 1,000 cards
     * Pay tier at $4/month more than what I'm looking for right now.
+  * [Archidekt](https://archidekt.com/)
+    + Great UX
+    - Only really supports Decks, no Collection support
+    - Can't import "Foil" status
+  * [MTG Collection Builder](https://mtgcollectionbuilder.com/)
+    * Really focused around collecting one of each card.
+    * Organized around Sets and % completion
+    * Doesn't have support for Decks
+  * [TCGplayer](https://tcgplayer.com)
+    * No import or export
+    * a host of UI antipatterns
   * [MTGAHelper](https://mtgahelper.com/)
     * MTG Arena only
   
   
 ## Other Sites
 
- * Scryfall
- * Cube Tutor
- * Cube Cobra
+ * [Scryfall](https://scryfall.com/)
+   * Rules in every possible way.
+ * [Cube Tutor](https://www.cubetutor.com/)
+   * Market leader in Cube management
+   * Mostly pretty good, but seems to be having support issues
+ * [Cube Cobra](https://cubecobra.com/)
+   * Looks good, intend to try it out
  
  
  
