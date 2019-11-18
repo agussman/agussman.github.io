@@ -44,6 +44,10 @@ Some of the things I'm looking for:
     * Looks promising
     * Free tier only allows up to 1,000 cards
     * Pay tier at $4/month more than what I'm looking for right now.
+  * [EchoMTG](https://www.echomtg.com/)
+    * Looks fairly decent
+    * Free tier is limited to a 360 card collection
+    * I would need either the $3/month (11,520 cards) or $7/month (360,000) plan
   * [Archidekt](https://archidekt.com/)
     + Great UX
     - Only really supports Decks, no Collection support
