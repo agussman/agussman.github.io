@@ -14,6 +14,8 @@ Some of the things I'm looking for:
    * Overall seems very good.
    * Has it's own internal collection management capabilities, but no web interface.
    * You need to pay to export more than 100 cards at a time, but the free capabilities seem pretty generous.
+ * [AetherHub](https://aetherhub.com/)
+   * Has a card scanner (haven't tried it)
  * [Decked Builder](https://www.deckedbuilder.com/)
    * iOS only
  * [CardCastle](https://cardcastle.co/)
@@ -29,6 +31,8 @@ Some of the things I'm looking for:
     * Lots of features, including Decks and Collection
     * Lots of ads
     * No way to incrementally add a .CSV of cards; looks like it just overwrites everything
+  * [AetherHub](https://aetherhub.com/)
+    * 
   * [CardCastle](https://cardcastle.co/)
     * Looks promising
     * Free tier only allows up to 1,000 cards
