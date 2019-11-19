@@ -25,6 +25,11 @@ Some of the things I'm looking for:
  
  ## Collection Management
  
+   * [Archidekt](https://archidekt.com/)
+    + Great UX
+    * Supports Decks and Collections
+    * You can export a CSV from Delver Lens with Scryfall ID, Foil columns and it will import cards correctly into your Collection
+    * There doesn't appear to be a way to import cards into a Deck from Delver Lens
   * [Deckbox](https://deckbox.org/)
     * Closest thing to a gold standard for collection management.
     * This is what I've been using, but I'm not thrilled with it. It's tedious to enter cards and the filtering/search is just wonky.
@@ -37,6 +42,7 @@ Some of the things I'm looking for:
     * Looks extremely promising, if I can get DelverLens to import I'll probably use this
     * Reasonable free tier
     * Has card scanning support via [Helvault](https://aetherhub.com/Collection/CardScanner) (iOS only)
+    * Can't import Foil status?
   * [MTGStocks](https://www.mtgstocks.com/)
     * Comprehensive price change info and analysis
     * Allows for Import via CSV
@@ -52,10 +58,6 @@ Some of the things I'm looking for:
     * Looks fairly decent
     * Free tier is limited to a 360 card collection
     * I would need either the $3/month (11,520 cards) or $7/month (360,000) plan
-  * [Archidekt](https://archidekt.com/)
-    + Great UX
-    - Only really supports Decks, no Collection support
-    - Can't import "Foil" status
   * [MTG Collection Builder](https://mtgcollectionbuilder.com/)
     * Really focused around collecting one of each card.
     * Organized around Sets and % completion
