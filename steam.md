@@ -8,6 +8,8 @@
 
 [Reddit](https://www.reddit.com/r/elderscrollsonline)
 
-[calendar](http://benevolentbowd.ca/calendar/)
+[Bowd Calendar](http://benevolentbowd.ca/calendar/)
+
+[Bowd Endeavors](https://benevolentbowd.ca/games/esotu/eso-endeavors/)
 
 [ESO news](https://www.elderscrollsonline.com/en-us/news)
