@@ -12,4 +12,6 @@
 
 [Bowd Endeavors](https://benevolentbowd.ca/games/esotu/eso-endeavors/)
 
+[Reddit Endeavors Guide](https://www.reddit.com/r/elderscrollsonline/comments/14yjnbw/the_lazy_gamers_guide_to_endeavors/)
+
 [ESO news](https://www.elderscrollsonline.com/en-us/news)
